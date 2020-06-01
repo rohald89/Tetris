@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .container {
   display: flex;
 }
@@ -16,6 +19,9 @@
 
 .tetromino {
   background-color: blue;
+  /* border: 1px solid black; */
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 3px;
 }
 
 .mini-grid {
